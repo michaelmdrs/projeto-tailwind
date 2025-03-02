@@ -10,8 +10,8 @@ export default function Menu(props: MenuProps) {
         <aside className={`${props.className ?? ''}`}>
             <nav className="flex flex-col gap-6">
                 <MenuGrupo label="Box Model">
-                    <MenuItems label="Padding" href="/pagina/padding"></MenuItems>
-                    <MenuItems label="Margin" href="/pagina/margin"></MenuItems>
+                    <MenuItems label="Padding" href="/box-model/padding"></MenuItems>
+                    <MenuItems label="Margin" href="/box-model/margin"></MenuItems>
                     <MenuItems label="Border" href="/pagina/border"></MenuItems>
                     <MenuItems label="Box Sizing" href="/pagina/box-sizing"></MenuItems>
                 </MenuGrupo>
